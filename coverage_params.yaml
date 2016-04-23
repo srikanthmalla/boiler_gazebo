@@ -1,0 +1,4 @@
+mode: sim
+# model can be real or sim
+controller: dji
+# controller can be pixhawk or dji

@@ -1,0 +1,4 @@
+<launch>
+	<rosparam command="load" file="$(find boiler_gazebo)/coverage_params.yaml" />
+	<node name="coverage" pkg="boiler_gazebo" type="coverage" output="screen"/>
+</launch>

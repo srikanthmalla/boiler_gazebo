@@ -1,0 +1,4 @@
+
+<launch>
+<node name="test_file" pkg="boiler_gazebo" type="test_file" output="screen" launch-prefix="gdb -ex run --args"/>
+</launch>

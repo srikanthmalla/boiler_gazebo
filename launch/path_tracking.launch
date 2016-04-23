@@ -1,0 +1,8 @@
+<!-- -->
+<launch>
+
+	<remap from="path_tracking_control_node/path" to="test_path_control/path" />
+	<remap from="test_path_control/pose" to="/quad_sim_sysid_node/pose" />
+	<node name="test_path_control" pkg="boiler_gazebo" type="path_gen" output="screen"/>
+
+</launch>
